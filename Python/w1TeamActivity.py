@@ -1,0 +1,25 @@
+#
+print("\nPlease enter the following information: \n")
+
+first_name = input("First Name: ")
+last_name = input("Last Name: ")
+email = input("Email address: ")
+phone = input("Phone number: ")
+job_title = input("Job title: ")
+id = input("ID number: ")
+hair = input("Hair color: ")
+eyes = input("eyes' color: ")
+month = input("birth month: ")
+training = input("Do you need training? (write 'yes' or 'no') ")
+ 
+
+print("\nThe ID Card is:")
+print("-------------------------")
+print(f"{last_name.upper()}, {first_name.title()} \n{job_title.title()}")
+print(f"ID: {id}\n")
+print(email.lower())
+print(phone)
+print()
+print(f"Hair: {hair.title():15}     Eyes: {eyes.title()}")
+print(f"Month: {month.title():14}   Training: {training.title()}")
+print("-------------------------")

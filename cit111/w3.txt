@@ -1,0 +1,40 @@
+데이터 모델 - 논리적 구조(어디에 데이터를 저장하고 어떻게 분류하고 만드는지에 대한 데이터 구조)
+Data Model- determines the logical structure of a database and determines in which manner data can be stored, organized and manipulated
+
+계층 모델(계급에 따른 모델) - 나무형태로 부모노드와 아이 노드들이 있다. 각 아이노드는 오직 하나의 부모 노드를 가지고 있으며 부모 노드는 여러 아이들과 연결되어 있는 구조다.
+Hierarchical Model - Organizes data in a tree-like structure with parents and child nodes. Each child node will only have one parent node, parents can have many child nodes
+
+데이터타입 - int / string등 여러가지 데이터 타입을 말하며 이것에 부합해야만 프로그램이 만든 규칙
+Datatype - a particular kind of data item, as defined by the values it can take
+
+넷트워크 모델- 데이터모델의 하나로, 계층모델의 확장형. 아이 노드들이 더 많은 부모를 가질 수 있다.
+Network Model - an extension of the hierarchical database model. With the network model, child nodes can have more than one parent, allowing more flexibility
+
+가장 대중적으로 사용되며 다른 rows나 테이블에 링크하여 공유할수 있다.
+Relational Model - The most common model that organizes data in rows and tables, which in turn can be accessed and linked to other rows and tables by sharing a common field.
+
+가장 대표적인 데이터.  객체 내에있는 인스턴스 변수의 저장된 값을 포함하는 객체 모음을 사용하여 객체를 구성하는 것입니다. 레코드 지향 모델과 달리, 오브젝트 지향 값은 단지 오브젝트
+Object-oriented Model - represents data as an object with properties and methods and combines database capabilities with object-oriented programming language capabilities.
+
+
+NoSQL 데이터베이스는 단순 검색 및 추가 작업을 위한 매우 최적화된 키 값 저장 공간으로, 레이턴시와 스루풋과 관련하여 상당한 성능 이익을 내는 것이 목적
+NoSQL - an unstructured database model that can store virtually any structure where new columns can be created easily
+
+
+Unicode - The Unicode character set is a good standard that covers all international languages.
+
+VARCHAR - Use ___ when you don't know the length of a character data entry.
+
+yyyy-mm-dd - The format that mysql recognizes for date is___
+
+Relational - ___database model organizes data in rows and tables that can be linked to other rows and tables by sharing a common field.
+
+Not Only SQL - NoSQL stands for ___
+
+Relational - The vast majority of databases are___
+
+MongoDB -  is a NoSQL database management software product that is open source and was written in C++.
+
+Data loss - Having to make changes later to a datatype after the database is developed can result in ___
+
+INT, DECIMAL - The datatype of ___ holds whole numbers with no decimals. The datatype of ___ holds numbers with decimal places.

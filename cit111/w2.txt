@@ -1,0 +1,22 @@
+Query(문의, 질문) - A request for data or information. Asking a question from the data
+
+Sort(분류, 구분) - Arrange data or information in a specific way to make it more useful. Such as alphabetizing from a to z.
+
+Filter(거르다) - Hiding or filtering out unwanted data or information so only the information you want to see is displayed.
+
+Statement of Work (SOW)(업무/작업 기술서) - A document used to plan a successful execution of a project or system. Used in planning for data systems such as databases.
+
+Data Integrity(데이터 완전성 - 입력된 데이터가 변경or파괴되지 않는 상태) - Ensuring the accuracy and reliability of data, making sure it remains intact(온전한, 다치지 않은) . It can be maintained by standards implemented during the design phase.
+
+Data Consistency(데이터 일관성) - 
+The usability of data, or having only valid data written to the database. All values in a single attribute of an entity, should be of the same data type.
+
+
+Data Redundancy(데이터 중복) - The repetition of data where the same data value is stored in more than one place in the database. This wastes space and necessitates multiple changes in different places when editing the value.
+
+Entity Data Storage(객체(독립체) 자료 저장) - A single thing, person, place, or object; usually represented as a single row in data storage. Also referred to as a record.
+
+Attribute Data Storage(속성 데이터 저장) - A value that describes a characteristics of the entity. A set of these related values for many entities are represented as a column in data storage. Also referred to as a field.
+
+
+스프레드시트 - 

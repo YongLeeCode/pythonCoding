@@ -44,3 +44,10 @@ VALUES
 (104, 8),
 (104, 9),
 (104, 10);
+
+UPDATE actor
+SET first_name = "Toom"
+WHERE first_name = "Tom";
+
+DELETE FROM actor
+WHERE first_name = "Harrison";

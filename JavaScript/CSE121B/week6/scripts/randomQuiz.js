@@ -1,11 +1,14 @@
+const today = new Date();
+
 var quiz = [];
-quiz[0] = new Question("What is 1/4 of 100?", "25", "24", "23");
-quiz[1] = new Question("What color is blood?", "Red", "White", "Green");
-quiz[2] = new Question("What color is grass?", "Green", "White", "Red");
-quiz[3] = new Question("How many legs does a spider have?", "8", "6", "4");
-quiz[4] = new Question("Who is the king of the Netherlands?", "Willem-Alexander", "Willem-Alexzelf", "Willem-Alexniemand");
+quiz[0] = new Question("3 x 5 = ?", "15", "18", "21");
+quiz[1] = new Question("Who is the first president in United states?", "George Washington", "John Adams", "Thomas Jefferson");
+quiz[2] = new Question("Where is BYU-Idaho?", "Rexburg", "Salt Lack city", "Idaho falls");
+quiz[3] = new Question("How many legs does a horse have?", "4", "6", "8");
+quiz[4] = new Question("What company did Steve Jobs work?", "Apple", "Samsung", "Google");
 quiz[5] = new Question("What is 2-2?", "0", "2", "4");
 quiz[6] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobless");
+
 var randomQuestion;
 var answers = [];
 var currentScore = 0;
@@ -75,7 +78,7 @@ function checkAnswer(answer) {
     adjustScore(true);
     btnProvideQuestion();
   } else { 
-    alert("Loser!");
+    alert("Your answer is wrong!");
     adjustScore(false);
   }	  
 }

@@ -1,0 +1,17 @@
+
+사진, 
+
+Necessary 
+> map(user's country map / world map)
+> a timeline screen
+> sharable/printable screen
+> user edit entries
+
+add
+> navigation(appear public transportation) with a timeline screen
+> weather
+> recommend cloths
+> recommend restaurant around trip place
+Basic / user recommend
+
+더 많은 

@@ -1,0 +1,85 @@
+Edgar F. Codd
+ - A computer scientist who invented the relational model for database management, the theoretical basis for relational databases and relational database management systems
+
+SQL
+ - Structured Query Language, the language to communicate with a database
+
+MySQL
+ - the most popular open-source relational database management system
+
+MySQL Workbench
+ -  a visual tool for database providing data modeling, SQL development, administration tools, user administration, and backups
+
+Table
+ - a part of a database that represents one real world entity or one group of related instances of that entity. Each row of a table is one instance of the entity. Each column an attribute of that entity.
+
+Primary Key
+ - An attribute (or group of attributes) that uniquely identifies a given entity in a table
+
+Foreign Key
+ - A primary key of one table that appears as an attribute in another table and acts to provide a logical relationship between the two tables. Foreign keys can repeat.
+
+Referential Integrity
+ - A rule that prevents invalid relationships between tables when changes are made to the data
+
+Null
+ - A term stating that an attribute value doesn't have to exist. In other words the user can leave the value blank
+
+Auto-increment
+ - A table column which produces a sequential system generated number when a new record is inserted into a table.
+
+Surrogate Key
+ - A system-assigned primary key, generally numeric and auto-incremented.
+
+Composite Key
+ - Two or more attributes that together define the primary key by unique combinations of their values.
+
+Natural Key
+ - A key that naturally occurs in the attributes of an entity, such as a student ID or a course name.
+
+ERD
+ - Entity Relationship Diagram - a diagram that shows how database tables are defined and relate
+
+Cardinality (Entity Relationships)
+ - How the occurrences in one entity are linked to the number of occurrences in another entity (one-to-one, one-to-many, and many-to-many)
+
+Crows feet notation
+ - a way to symbolize relationships between tables in an entity relationships diagram (ERD)
+
+RDBMS:
+The Relational Database Model is the most common.
+-relational
+
+Each table represents a 'real-world' entity.
+- table 
+
+The primary key must be unique for each row of the table.
+- unique
+
+The same primary key value of one table can be used as a foreign key value of another table to relate them together.
+- foreign
+
+___ not only uniquely identifies a row of a table but it also is made up of real-data, data that has meaning and occurs naturally in the real world.
+- natural
+
+___ key gets an auto-generated value from the computer system as the row is added to the table.
+-surrogate
+
+Entity Relationships:
+There are 3 types of relationships between entities. A one-to-one, a one-to-many, and a many-to-many .
+- many-to-many
+
+In a one-to-many relationship, a customer can make many orders but an order is made by only one customer.
+-one
+
+In relational databases, a many-to-many relationship always has to be resolved or broken down into  2 one-to-many relationships.
+-manytomany
+
+
+w04Quizrdb
+
+
+q3 unique
+q8 you wouldnt
+q9 social isbn
+q10

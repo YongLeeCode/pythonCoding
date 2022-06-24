@@ -1,0 +1,6 @@
+scalor function - operates on data within one row at a time
+
+aggregate function - operates on data across many rows
+
+
+AVG MAX MIN SUM COUNT

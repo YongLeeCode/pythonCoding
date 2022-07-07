@@ -1,0 +1,6 @@
+1. go to Netlify website - https://app.netlify.com/
+
+2. log in
+
+3. go to 'sites' and drag my site to deploy box
+

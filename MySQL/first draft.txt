@@ -1,0 +1,14 @@
+college
+department
+department_code
+course_num
+course_title
+credits
+
+year
+term
+course
+section
+faculty_fname
+faculty_lname
+capacity

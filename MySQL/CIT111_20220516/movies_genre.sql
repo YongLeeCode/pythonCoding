@@ -1,1 +1,0 @@
-SELECT * FROM movies.movie_has_genre;
